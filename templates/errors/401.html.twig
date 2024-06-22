@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Error 401 Unauthorized{% endblock %}
+
+{% block body %}
+    <div class="d-flex flex-column">
+        <div class="d-flex">
+            <div class="me-2">
+                <h1 class="font-size-md roboto-bold text-color-primary m-0">ERROR 401</h1>
+            </div>
+            <p class="font-size-md roboto-regular text-color-primary m-0">Unauthorized</p>
+        </div>
+        <hr>
+        <p class="font-size-sm roboto-regular text-color-primary m-0">Try logging in or come back later</p>
+    </div>
+{% endblock %}
